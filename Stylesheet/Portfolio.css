@@ -1,0 +1,217 @@
+body {
+ margin: 0%;
+}
+
+.Navbar {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.Navbar a {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+.Navbar a:hover {
+    background-color: darkgray;
+    color: black;
+}
+
+.Navbar a.active {
+    background-color: gray;
+}
+
+.Navbar a.active:hover {
+    background-color: lightgray;
+}
+
+.Typing_Video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.Video_Text { 
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	padding: 20px;
+	margin-top: 23%;
+}
+
+.Video_Text p {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.Video_Text h1  {
+    color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.Flexbox {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Flexbox, .Column_1, .Column_2 {
+    overflow: hidden;
+    flex: 1 1;
+}
+
+.Column_1 {
+    padding: 10px;
+    min-height: 400px;
+    background-color: #F2F2F2;
+}
+
+.Column_2 {
+    padding: 10px;
+    min-height: 400px;
+    background-color: #4D4D4D;
+    /* Below properties to center images */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Optima;
+    text-align: center;
+    margin-top: 3%;
+    color: black;
+}
+
+p {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+}
+
+.Center { /* not currently used */
+    text-align: center;
+}
+
+a {
+    color: blue;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    filter: grayscale(75%);
+    max-width: 100%;
+    max-height: 340px;
+    flex: 1 1;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin: 0px auto ;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #F2F2F2;
+    padding: 20px;
+    font-family: "Trebuchet MS", Optima;
+}
+
+footer {
+    padding: 2%;
+    background-color: white;
+}
+
+.Center-Footer {
+    margin: 0px auto;
+    width: 50%;
+}
+
+footer p {
+    text-align: center;
+}
+
+.Video_Text h1:hover {
+    color: white;
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+.Video_Text p:hover {
+    color: white;
+    transition: transform 1s;
+    transform: scale(1.05);
+}
+
+h1:hover {
+    color: black;
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+p:hover {
+    color: black;
+    transition: transform 1s;
+    transform: scale(1.05);
+}
+
+img:hover {
+    filter: grayscale(5%);
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+input[type=submit]:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+center:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
