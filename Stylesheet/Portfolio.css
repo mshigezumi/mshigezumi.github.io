@@ -481,11 +481,13 @@ h1:hover {
     transform: scale(1.1);
 }
 
+/*
 p:hover {
     color: black;
     transition: transform 1s;
     transform: scale(1.05);
 }
+*/
 
 .Slideshow_Container img:hover {
     filter: grayscale(5%);
